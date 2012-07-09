@@ -1,0 +1,27 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,
+em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,
+header,hgroup,menu,nav,section,summary,time,mark,audio,video
+{background:transparent;border:0;margin:0;outline:0;padding:0;vertical-align:baseline}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block}
+
+[hidden] {display: none}
+
+b,strong{font-weight:bold}
+
+pre,code {font-family: monospace, serif;_font-family: 'courier new', monospace;font-size: 1em}
+
+pre {white-space: pre;white-space: pre-wrap;word-wrap: break-word;display:inline;}
+
+small {font-size:.75em}
+
+img {border: 0;-ms-interpolation-mode: bicubic}
+
+svg:not(:root) {overflow: hidden}
+
+html{font-size: 100%;overflow-y: auto;overflow-x:scroll;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%}
+
+body{color:#000;line-height:1;font:62.5% Verdana,Arial, sans-serif}
+
+a{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:underline}

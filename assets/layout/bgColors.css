@@ -1,0 +1,16 @@
+body.violet{ background:#260930}
+body.violet ::selection{ background:#711663 }
+body.violet>h1{ text-shadow:1px 1px 7px #000 }
+
+body.blue{ background:#0086a8 }
+body.blue ::selection{ background:#008 }
+
+body.green{ background: rgb(0,137,59) }
+body.green ::selection{ background:#080 }
+body.green #metroSidebar{ border-left:1px solid #ada }
+
+body.pink{ background:#ec4072 }
+body.pink ::selection{ background:#a15 }
+
+body.orange{ background:#f26d20 }
+body.orange ::selection{ background:#c20 }

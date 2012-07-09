@@ -1,0 +1,95 @@
+#metroSidebar{
+	width:60%;
+	height:100%;
+	padding:50px 25px 25px 75px;
+	position:fixed;
+	left:30%;
+	top:0;
+	background:transparent;
+	overflow-y:auto;
+	overflow-x:hidden;
+	color:#000;
+	font:1.5em 'Ubuntu Condensed', sans-serif;
+	border:solid 1px #FFF;
+}
+#metroSidebar ::selection{background:#080;}
+#metroSidebar hgroup{
+	margin-bottom:30px;
+}
+#metroSidebar h1{font-size:1.33em;margin-left:-40px;}
+#metroSidebar h1 img, #metroSidebar label img{vertical-align:middle;margin-right:10px;}
+#metroSidebar article li{
+	margin:20px 0;
+}
+#metroSidebar ul{list-style:none}
+#metroSidebar li span{
+	display:block;
+}
+/*
+#metroSidebar input{
+	border:1px solid #0d8845;
+	outline:1px solid #a6a6a6;
+}
+#metroSidebar button{
+	border:1px solid #0d8845;
+	outline:2px solid #a6a6a6;
+	cursor:pointer;
+	color:#fff;
+	text-transform:uppercase;
+	background:#a6a6a6;
+}
+#metroSidebar button:active{
+	background:#10a151;
+}*/
+
+#metroSidebar a{
+	color:#ddd;
+	text-decoration:none;
+	border-bottom:.1em solid #ddd;
+}
+#metroSidebar a:hover{
+	color:#fff;
+}
+#metroSidebar a:visited{
+	color:#aaa;
+}
+
+#metroSidebar li{
+	margin:.6em 0;
+}
+/*
+#metroSidebar select{
+	background:#10a151;
+	color:#fff;
+	text-transform:capitalize;
+	border:1px solid #0d8845;
+	outline:2px solid #a6a6a6;
+}
+*/
+#metroSidebar hr{
+	margin:35px 0;
+	border:0;
+}
+
+button#dragg{
+	margin:0 0 0 30px;
+	padding:0;
+	min-width:35px;
+	border-left:10px solid #000;
+}
+button#dragg.on{
+	background:#10a151;
+	border-left:1px solid #0d8845;
+	border-right:10px solid #000;
+}
+button#dragg.on:active{
+	background:#a6a6a6;
+}
+
+
+ol#stillToBeDone{
+	height:250px;
+	display:block;
+	list-style:square;
+	overflow:auto;
+}
