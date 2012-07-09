@@ -68,7 +68,7 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a href="#" onclick="$('#loginForm').slideToggle();">Profile</a></li>
+              <li><a data-toggle="modal" href="#myModal">Profile</a></li>
               <li class="divider"></li>
               <li><a href="#">Sign Out</a></li>
             </ul>
